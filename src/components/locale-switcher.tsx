@@ -3,6 +3,7 @@ import {useId} from "react"
 import {Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue} from "@/components/ui/select"
 import {i18n, Locale} from "@/i18n/i18n.config";
 import {useParams, usePathname, useRouter} from "next/navigation";
+import Image from "next/image";
 
 const languages = [
     {
@@ -63,7 +64,7 @@ export default function LocaleSwitcher() {
                     <SelectGroup>
                         {languages.map((item) => (
                             <SelectItem key={item.label} value={item.id}>
-                                <img
+                                <Image
                                     className="size-5"
                                     src={item.img}
                                     alt={item.label}

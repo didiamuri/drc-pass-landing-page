@@ -1,7 +1,9 @@
 import React from 'react';
+import Image from 'next/image';
+import LocaleSwitcher from './locale-switcher';
 import { Translation } from '@/types/translation';
 import { ExternalLink, Fingerprint } from 'lucide-react';
-import LocaleSwitcher from './locale-switcher';
+import Link from 'next/link';
 
 const Footer = ({ dictionary }: { dictionary: Translation }) => {
     return (
@@ -10,7 +12,7 @@ const Footer = ({ dictionary }: { dictionary: Translation }) => {
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
                     <div className='flex items-center'>
                         <div className="flex items-center justify-start mb-4">
-                            <img src="/flag-drc.png" alt="Logo" className="h-20 w-auto" />
+                            <Image src="/flag-drc.png" alt="Logo" className="h-20 w-auto" width={20} height={20} />
                             <div className="ml-4">
                                 <p className="text-xs font-bold text-gray-500 uppercase">{dictionary.header.title1} <br /> {dictionary.header.title2}  <br />{dictionary.header.title3}</p>
                                 <div className='flex items-center gap-1'>
@@ -28,9 +30,9 @@ const Footer = ({ dictionary }: { dictionary: Translation }) => {
                             <div>
                                 <h4 className="font-bold text-lg mb-4 text-white">{dictionary.footer.links.title}</h4>
                                 <ul className="space-y-2">
-                                    <li><a href="https://republique.cd/" target='_blank' className="flex items-center text-gray-500 hover:underline">{dictionary.footer.links.lists[1]} <ExternalLink className='size-4 ml-1' /></a></li>
-                                    <li><a href="https://www.pt-numerique.gouv.cd/" target='_blank' className="flex items-center text-gray-500 hover:underline">{dictionary.footer.links.lists[2]} <ExternalLink className='size-4 ml-1' /></a></li>
-                                    <li><a href="https://www.pt-numerique.gouv.cd/" target='_blank' className="flex items-center text-gray-500 hover:underline">{dictionary.footer.links.lists[3]} <ExternalLink className='size-4 ml-1' /></a></li>
+                                    <li><Link href="https://republique.cd/" target='_blank' className="flex items-center text-gray-500 hover:underline">{dictionary.footer.links.lists[1]} <ExternalLink className='size-4 ml-1' /></Link></li>
+                                    <li><Link href="https://www.pt-numerique.gouv.cd/" target='_blank' className="flex items-center text-gray-500 hover:underline">{dictionary.footer.links.lists[2]} <ExternalLink className='size-4 ml-1' /></Link></li>
+                                    <li><Link href="https://www.pt-numerique.gouv.cd/" target='_blank' className="flex items-center text-gray-500 hover:underline">{dictionary.footer.links.lists[3]} <ExternalLink className='size-4 ml-1' /></Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -39,18 +41,18 @@ const Footer = ({ dictionary }: { dictionary: Translation }) => {
 
                 <div className="flex items-center justify-center mt-8 py-6 text-sm text-gray-500 bg-white">
                     <ul className="grid grid-cols-1 md:grid-cols-2 space-y-2">
-                        <li><img src="/logo.png" alt="Logo" className="h-20 w-auto" /></li>
-                        <li><img src="/logo-drc.png" alt="Logo" className="h-20 w-auto" /></li>
+                        <li><Image src="/logo.png" alt="Logo" className="h-20 w-auto" width={20} height={20} /></li>
+                        <li><Image src="/logo-drc.png" alt="Logo" className="h-20 w-auto" width={20} height={20} /></li>
                     </ul>
                 </div>
 
                 <div className="border-t mt-8 pt-6 space-y-4 text-start text-sm text-gray-500">
                     <ul className="grid grid-cols-2  md:grid-cols-5 space-y-2">
-                        <li><a href="/" className="text-gray-500 hover:underline">{dictionary.footer.others.legale_notice}</a></li>
-                        <li><a href="/" className="text-gray-500 hover:underline">{dictionary.footer.others.pricacy_policy}</a></li>
-                        <li><a href="/" className="text-gray-500 hover:underline">{dictionary.footer.others.accessibility}</a></li>
-                        <li><a href="/" className="text-gray-500 hover:underline">{dictionary.footer.others.faq}</a></li>
-                        <li><a href="/" className="text-gray-500 hover:underline">{dictionary.footer.others.contact}</a></li>
+                        <li><Link href="/" className="text-gray-500 hover:underline">{dictionary.footer.others.legale_notice}</Link></li>
+                        <li><Link href="/" className="text-gray-500 hover:underline">{dictionary.footer.others.pricacy_policy}</Link></li>
+                        <li><Link href="/" className="text-gray-500 hover:underline">{dictionary.footer.others.accessibility}</Link></li>
+                        <li><Link href="/" className="text-gray-500 hover:underline">{dictionary.footer.others.faq}</Link></li>
+                        <li><Link href="/" className="text-gray-500 hover:underline">{dictionary.footer.others.contact}</Link></li>
                     </ul>
 
 
