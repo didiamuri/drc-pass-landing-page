@@ -1,0 +1,62 @@
+{
+    "header": {
+        "title1": "Democratic",
+        "title2": "Republic",
+        "title3": "of the Congo"
+    },
+    "menu": {
+        "home": "Home"
+    },
+    "hero": {
+        "title": "Keep control of your identity data",
+        "option1": "Prove your identity without disclosing all your data",
+        "option2": "Prevent identity theft",
+        "option3": "Replace your usernames and passwords"
+    },
+    "id_lookup": {
+        "title": "Identity Verification",
+        "description": "Enter your national identity number for secure verification",
+        "placeholder": "Enter your national identity number",
+        "button_disabled": "Verify identity",
+        "button_loading": "Searching...",
+        "message_title": "Official secure service",
+        "message_description": "Your personal data is protected according to the highest government security standards."
+    },
+    "features": {
+        "title": "RDC Pass allows you to",
+        "description": "Our service offers the highest standards of security and reliability",
+        "list": {
+            "1": {
+                "title": "Provide a one-time identity proof",
+                "description": "Easily, securely, and for single use only. No more ID card scans!"
+            },
+            "2": {
+                "title": "Verify identity online",
+                "description": "Allow businesses and government services to securely verify your identity online."
+            },
+            "3": {
+                "title": "Access more than 1,400 online services",
+                "description": "One single account to access all your services."
+            }
+        }
+    },
+    "footer": {
+        "description": "The “RDC Pass” application is supported by the Ministries of the Interior and Overseas, Justice, Public Transformation and Service, Economy, Finance and Industrial and Digital Sovereignty, and the Ministry in charge of Digital Transition and Telecommunications.",
+        "links": {
+            "title": "Useful links",
+            "lists": {
+                "1": "Presidency of the Republic",
+                "2": "Prime Minister's Office",
+                "3": "Ministry of Posts, Telecommunications and Digital"
+            }
+        },
+        "others": {
+            "legale_notice": "Legal notice",
+            "pricacy_policy": "Privacy policy",
+            "accessibility": "Accessibility",
+            "faq": "Frequently asked questions",
+            "contact": "Contact us"
+        },
+        "copyright": "RDC Pass. All rights reserved."
+    }
+}

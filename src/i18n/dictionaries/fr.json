@@ -1,0 +1,62 @@
+{
+    "header": {
+        "title1": "République",
+        "title2": "Démographique",
+        "title3": "du Congo"
+    },
+    "menu": {
+        "home": "Accueil"
+    },
+    "hero": {
+        "title": "Gardez la maîtrise de vos données d’identité",
+        "option1": "Prouver votre identité sans divulguer toutes vos données",
+        "option2": "Éviter l'usurpation de votre identité",
+        "option3": "Remplacer vos identifiants et mots de passe"
+    },
+    "id_lookup": {
+        "title": "Vérification d'identité",
+        "description": "Saisissez votre numéro d'identité national pour une vérification sécurisée",
+        "placeholder": "Entrez votre numéro d'identité national",
+        "button_disabled": "Vérifier l'identité",
+        "button_loading": "Recherche en cours...",
+        "message_title": "Service officiel sécurisé",
+        "message_description": "Vos données personnelles sont protégées selon les plus hauts standards de sécurité gouvernementaux."
+    },
+    "features": {
+        "title": "RDC Pass permet de",
+        "description": "Notre service offre les plus hauts standards de sécurité et de fiabilité",
+        "list": {
+            "1": {
+                "title": "Fournir un justificatif d’identité à usage unique",
+                "description": "Facilement, en toute sécurité, et à usage unique. Terminés les scans de carte d’identité !"
+            },
+            "2": {
+                "title": "Vérifier l’identité en ligne",
+                "description": "Permettre aux entreprises et aux services gouvernementaux de vérifier votre identité en ligne, en toute sécurité."
+            },
+            "3": {
+                "title": "Accéder à plus de 1400 services en ligne",
+                "description": "Un compte unique pour accéder à tous vos services."
+            }
+        }
+    },
+    "footer": {
+        "description": "L’application «RDC Pass» est portée par les ministères de l’Intérieur et des Outre-mer, de la Justice, de la Transformation et de la Fonction publiques, de l’Économie, des Finances et de la Souveraineté industrielle et numérique et du Ministère chargé de la Transition numérique et des télécommunications.",
+        "links": {
+            "title": "Liens utiles",
+            "lists": {
+                "1": "Présidence de la République",
+                "2": "Primature",
+                "3": "Ministère des Postes, Télécommunications et Numérique"
+            }
+        },
+        "others": {
+            "legale_notice": "Mentions légales",
+            "pricacy_policy": "Politique de confidentialité",
+            "accessibility": "Accessibilité",
+            "faq": "Questions fréquentes",
+            "contact": "Nous contacter"
+        },
+        "copyright": "RDC Pass. Tous droits réservés."
+    }
+}
