@@ -4,5 +4,5 @@ import { stack } from "./middlewares/stack";
 export default stack([locales]);
 
 export const config = {
-    matcher: "/((?!.*\\.).*)",
+    matcher: "/((?!_next/image|assets|.*\\.).*)",
 }

@@ -9,12 +9,12 @@ const languages = [
     {
         id: 'en',
         label: 'English',
-        img: '/en.png'
+        img: '/assets/en.png'
     },
     {
         id: 'fr',
         label: 'Français',
-        img: '/fr.png',
+        img: '/assets/fr.png',
     }
 ]
 

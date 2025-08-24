@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import LocaleSwitcher from './locale-switcher';
 import { Translation } from '@/types/translation';
 import { ExternalLink, Fingerprint } from 'lucide-react';
-import Link from 'next/link';
 
 const Footer = ({ dictionary }: { dictionary: Translation }) => {
     return (
@@ -12,7 +12,7 @@ const Footer = ({ dictionary }: { dictionary: Translation }) => {
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
                     <div className='flex items-center'>
                         <div className="flex items-center justify-start mb-4">
-                            <Image src="/flag-drc.png" alt="Logo" className="h-20 w-auto" width={20} height={20} />
+                            <Image src="/assets/flag-drc.png" alt="Logo" className="h-20 w-auto" width={1200} height={1186} />
                             <div className="ml-4">
                                 <p className="text-xs font-bold text-gray-500 uppercase">{dictionary.header.title1} <br /> {dictionary.header.title2}  <br />{dictionary.header.title3}</p>
                                 <div className='flex items-center gap-1'>
@@ -41,8 +41,8 @@ const Footer = ({ dictionary }: { dictionary: Translation }) => {
 
                 <div className="flex items-center justify-center mt-8 py-6 text-sm text-gray-500 bg-white">
                     <ul className="grid grid-cols-1 md:grid-cols-2 space-y-2">
-                        <li><Image src="/logo.png" alt="Logo" className="h-20 w-auto" width={20} height={20} /></li>
-                        <li><Image src="/logo-drc.png" alt="Logo" className="h-20 w-auto" width={20} height={20} /></li>
+                        <li><Image src="/assets/logo.png" alt="Logo" className="h-20 w-auto" width={270} height={110} /></li>
+                        <li><Image src="/assets/logo-drc.png" alt="Logo" className="h-20 w-auto" width={383} height={100} /></li>
                     </ul>
                 </div>
 
